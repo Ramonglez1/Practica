@@ -52,12 +52,12 @@ st.markdown(
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Fuerza de brazo", "Circunferencia de Pantorrilla", "Velocidad de Marcha","Perimetro de Brazo","Porcentaje de grasa","Masa musculo-esquelética","grasa"])
 
 with tab1:
-st.header("Fuerza de brazo")
-st.markdown(
-        """
-       
-        """
-    )
+    st.header("Fuerza de brazo")
+    st.markdown(
+            """
+       eeeeeee
+            """
+    )    
     col1, col2, col3 = st.columns(3)
     with col1:
         st.write(" ")
