@@ -246,8 +246,7 @@ with tab7:
 st.header("Bibliografia")
 st.write(
     """
-Sarcopenia: European consensus on definition and diagnosis / Report of the European Working Group on Sarcopenia
-in Older People. ALFONSO J. CRUZ-JENTOFT et al. Age and Ageing 2010; 39: 412–423
+Cruz-Jentoft AJ, Baeyens JP, Bauer JM, Boirie Y, Cederholm T, Landi F, Martin FC, Michel JP, Rolland Y, Schneider SM, Topinková E, Vandewoude M, Zamboni M; European Working Group on Sarcopenia in Older People. Sarcopenia: European consensus on definition and diagnosis: Report of the European Working Group on Sarcopenia in Older People. Age Ageing. 2010 Jul;39(4):412-23. doi: 10.1093/ageing/afq034. Epub 2010 Apr 13. PMID: 20392703; PMCID: PMC2886201.
 
 """
 )
