@@ -28,7 +28,7 @@ st.set_page_config(
 
 )
 
-st.write("Sobre envejecimiento y la sarcopenia")
+st.header("Sarcopenia en el adulto mayor")
 
 
 """
@@ -48,6 +48,17 @@ st.markdown(
         Sarcopenia primaria Sarcopenia relacionada con la edad: Ninguna otra causa evidente salvo el envejecimiento
         """
 )
+
+
+col1, col2, col3 = st.columns(3)
+    with col1:
+        st.write(" ")
+    with col2:
+        st.write(" ")
+    with col3:
+        st.write(' ')
+
+
 
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Fuerza de brazo", "Circunferencia de Pantorrilla", "Velocidad de Marcha","Perimetro de Brazo","Porcentaje de grasa","Masa musculo-esquelética","grasa"])
 
