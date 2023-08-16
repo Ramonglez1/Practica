@@ -97,7 +97,7 @@ df = pd.DataFrame(data)
 
 st.dataframe(df)
 
-    st.markdown(
+st.markdown(
             """
 
 **Técnica**
