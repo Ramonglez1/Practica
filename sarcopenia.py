@@ -53,7 +53,7 @@ st.markdown(
 
 col1, col2, col3 = st.columns(3)
 with col1:
-        st.write("Tipos de sarcopenia")
+        st.write(" ")
         image1 = "Tipos-de-sarcopenia.jpg"
         st.image(image1)
         width = 800
@@ -62,7 +62,10 @@ with col2:
         st.write(" ")
 with col3:
         st.write(' ')
-
+        image2 = "Mecanismodesarcopenia.jpg"
+        st.image(image2)
+        width = 800
+        st.caption(' :blue[Imagen 2: Mecanismos asociados a la sarcopenia]')
 
 
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Fuerza de brazo", "Circunferencia de Pantorrilla", "Velocidad de Marcha","Perimetro de Brazo","Porcentaje de grasa","Masa musculo-esquelética","grasa"])
