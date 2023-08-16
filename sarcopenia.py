@@ -54,8 +54,9 @@ st.markdown(
 col1, col2, col3 = st.columns(3)
 with col1:
         st.write("Tipos de sarcopenia")
-        image = Image.open("Tipos-de-sarcopenia.jpg")
-        st.image("Tipos-de-sarcopenia.jpg")
+        image1 = "Tipos-de-sarcopenia.jpg"
+        st.image("image1")
+    
 with col2:
         st.write(" ")
 with col3:
