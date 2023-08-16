@@ -93,7 +93,7 @@ data = {
     'Fuerza de agarre': ['<27kg', '<16kg']
 }
 
-    df = pd.DataFrame(data)
+df = pd.DataFrame(data)
 
     st.dataframe(df)
 
