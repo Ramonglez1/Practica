@@ -85,13 +85,17 @@ El punto de corte para ser criterio de sarcopenia es:
 """
     )
 
-    data = (
-        """
-        'Genero': ['Hombre', 'Mujer'],
-        'Fuerza de agarre': [<27kg, <16kg],
-"""
-    )
-    st.dataframe(data)
+import pandas as pd
+import streamlit as st
+
+data = {
+    'Genero': ['Hombre', 'Mujer'],
+    'Fuerza de agarre': ['<27kg', '<16kg']
+}
+
+df = pd.DataFrame(data)
+
+st.dataframe(df)
 
     st.markdown(
             """
