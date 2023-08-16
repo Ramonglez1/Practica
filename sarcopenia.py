@@ -206,8 +206,33 @@ with tab5:
     La obesidad sarcopénica es una combinación de estas dos condiciones, donde una persona tiene un alto porcentaje de grasa corporal junto con una disminución de la masa muscular. Esto puede ser especialmente perjudicial, ya que la pérdida de masa muscular contribuye a una disminución de la fuerza y la funcionalidad, lo que puede aumentar el riesgo de discapacidad y otros problemas de salud. Además, la obesidad sarcopénica también se ha asociado con un mayor riesgo de enfermedades crónicas como la diabetes tipo 2, enfermedades cardíacas y problemas metabólicos.
 
     Es importante tener en cuenta que la relación entre el porcentaje de grasa corporal y la sarcopenia puede ser compleja y variar según la situación individual. Una evaluación completa de la composición corporal y la función muscular es crucial para comprender cómo estas dos condiciones pueden interactuar y afectar la salud general de una persona.
-    """
+
+    **¿Cómo medir su grasa corporal con calibradores de pliegues cutáneos?**
+
+    Esta será una prueba habrá 7 ubicaciones que querrá medir utilizando la formula Jackson y Pollock 7. En cada ubicación, querrá tomar 3 medidas para promediar y, en última instancia, conectarlas al cálculo del porcentaje de grasa corporal. Antes de tomar las 3 medidas, debe marcar la ubicación con una “t”, pellizcando la cruz con el calibrador para obtener una lectura consistente cada vez.
+
+**Porcentaje de grasa corporal normal**
+"""
     )
+
+    import pandas as pd
+    import streamlit as st
+    
+    data2 = {
+        'Clasificación': ['Delgado', 'Óptimo', 'Ligero sobrepeso', 'Sobrepeso']
+        '% grasa corporal hombre': ['<8%', '8.1 a 15.9%', '16,0 a 20,9%', '21,0 a 24,9%'],
+        '% grasa corporal mujer': ['<15%', '15,1 a 20,9%', '21,0 a 25,9%', '26,0 a 31,9%']
+    }
+    
+    df2 = pd.DataFrame(data2)
+    
+    st.dataframe(df2)
+
+
+    st.markdown(
+        """ 
+        """
+        )
 
 with tab6:
 
