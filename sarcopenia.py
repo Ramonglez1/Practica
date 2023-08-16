@@ -207,6 +207,13 @@ with tab7:
     with col3:
         st.write(' ')
 
+st.header("Bibliografia")
+st.write(
+    """
+Sarcopenia: European consensus on definition and diagnosis / Report of the European Working Group on Sarcopenia
+in Older People. ALFONSO J. CRUZ-JENTOFT et al. Age and Ageing 2010; 39: 412–423
 
+"""
+)
 
 
