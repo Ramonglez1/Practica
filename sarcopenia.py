@@ -74,9 +74,25 @@ with tab1:
     st.header("Fuerza de brazo")
     st.markdown(
             """
-       Las mediciones se realizan con un dinamómetro hidráulico manual, el cual se utiliza para medir la fuerza de agarre. Es utilizado como herramienta diagnóstica y evolución de un paciente, en este caso como criterio para el diagnóstico de sarcopenia.
+Las mediciones se realizan con un dinamómetro hidráulico manual, el cual se utiliza para medir la fuerza de agarre. Es utilizado como herramienta diagnóstica y evolución de un paciente, en este caso como criterio para el diagnóstico de sarcopenia.
 
 La medición de la fuerza de agarre máxima (MGS) es un elemento esencial para evaluar a la fuerza durante el crecimiento, envejecimiento, en las secuelas de lesiones traumáticas y en la rehabilitación. El dinamómetro es considerado un instrumento adecuado y confiable para la evaluación de la fuerza de prensión manual del paciente, aunque la fiabilidad de la evaluación puede verse afectada por género, peso y la postura corporal.
+
+**Fuerza de agarre y sarcopenia**: Las manos son una herramienta de gran utilidad para el hombre, quien las utiliza para realizar funciones mecánicas, sensitivas, de protección e incluso de comunicación, la fuerza de agarre es un parámetro simple para determinar la capacidad funcional de un paciente, es necesaria  para realizar las actividades de la vida diaria, tales como subir las escaleras, cargar alimentos, y realizar compras diversas.
+
+**Fuerza de agarre normal**: 
+El punto de corte para ser criterio de sarcopenia es:
+
+**Técnica**
+1. Se le indica al paciente que se siente con los codos flexionados a 90 grados y los antebrazos en posición neutra. 
+2. Los brazos no deben apoyarse en un apoyabrazos ni ningún otro sitio durante la prueba.
+3. Luego el paciente ejerce presión en la manija del dinamómetro durante algunos segundos. El dinamómetro expresa el resultado en kilogramos.
+4. Dejar descansar al paciente durante 1 minuto y repetir la prueba.
+5. Realizar la prueba en ambas extremidades
+
+**NOTA**
+Diferencias de fuerza en la mano dominante, ¿cuál tomar en cuenta?
+La mayor fuerza en la mano dominante está en 5-40% y puede estar o no relacionada con la actividad laboral. Se toma en cuenta el resultado de la mano con menor fuerza.
 
             """
     )    
