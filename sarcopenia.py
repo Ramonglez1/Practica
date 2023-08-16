@@ -82,6 +82,17 @@ La medición de la fuerza de agarre máxima (MGS) es un elemento esencial para e
 
 **Fuerza de agarre normal**: 
 El punto de corte para ser criterio de sarcopenia es:
+"""
+    )
+
+    data = {
+        'Genero': ['Hombre', 'Mujer'],
+        'Fuerza de agarre': [<27kg, <16kg],
+}
+    st.dataframe("data")
+
+    st.markdown(
+            """
 
 **Técnica**
 1. Se le indica al paciente que se siente con los codos flexionados a 90 grados y los antebrazos en posición neutra. 
