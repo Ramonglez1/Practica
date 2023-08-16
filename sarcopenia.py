@@ -85,41 +85,41 @@ El punto de corte para ser criterio de sarcopenia es:
 """
     )
 
-import pandas as pd
-import streamlit as st
-
-data = {
-    'Genero': ['Hombre', 'Mujer'],
-    'Fuerza de agarre': ['<27kg', '<16kg']
-}
-
-df = pd.DataFrame(data)
-
-st.dataframe(df)
-
-st.markdown(
-            """
-
-**Técnica**
-1. Se le indica al paciente que se siente con los codos flexionados a 90 grados y los antebrazos en posición neutra. 
-2. Los brazos no deben apoyarse en un apoyabrazos ni ningún otro sitio durante la prueba.
-3. Luego el paciente ejerce presión en la manija del dinamómetro durante algunos segundos. El dinamómetro expresa el resultado en kilogramos.
-4. Dejar descansar al paciente durante 1 minuto y repetir la prueba.
-5. Realizar la prueba en ambas extremidades
-
-**NOTA**
-Diferencias de fuerza en la mano dominante, ¿cuál tomar en cuenta?
-La mayor fuerza en la mano dominante está en 5-40% y puede estar o no relacionada con la actividad laboral. Se toma en cuenta el resultado de la mano con menor fuerza.
-
-            """
-    )    
-col1, col2, col3 = st.columns(3)
-with col1:
-        st.write(" ")
-with col2:
-        st.write(" ")
-with col3:
-        st.write(' ')
+    import pandas as pd
+    import streamlit as st
+    
+    data = {
+        'Genero': ['Hombre', 'Mujer'],
+        'Fuerza de agarre': ['<27kg', '<16kg']
+    }
+    
+    df = pd.DataFrame(data)
+    
+    st.dataframe(df)
+    
+    st.markdown(
+                """
+    
+    **Técnica**
+    1. Se le indica al paciente que se siente con los codos flexionados a 90 grados y los antebrazos en posición neutra. 
+    2. Los brazos no deben apoyarse en un apoyabrazos ni ningún otro sitio durante la prueba.
+    3. Luego el paciente ejerce presión en la manija del dinamómetro durante algunos segundos. El dinamómetro expresa el resultado en kilogramos.
+    4. Dejar descansar al paciente durante 1 minuto y repetir la prueba.
+    5. Realizar la prueba en ambas extremidades
+    
+    **NOTA**
+    Diferencias de fuerza en la mano dominante, ¿cuál tomar en cuenta?
+    La mayor fuerza en la mano dominante está en 5-40% y puede estar o no relacionada con la actividad laboral. Se toma en cuenta el resultado de la mano con menor fuerza.
+    
+                """
+        )    
+    col1, col2, col3 = st.columns(3)
+    with col1:
+            st.write(" ")
+    with col2:
+            st.write(" ")
+    with col3:
+            st.write(' ')
 
 
 
