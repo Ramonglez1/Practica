@@ -72,7 +72,7 @@ with tab1:
     )    
 col1, col2, col3 = st.columns(3)
 with col1:
-        st.write(" ")
+        st.write("Tipos de sarcopenia")
 with col2:
         st.write(" ")
 with col3:
