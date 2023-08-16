@@ -53,7 +53,7 @@ st.markdown(
 
 col1, col2, col3 = st.columns(3)
 with col1:
-        st.Header("Tipos de sarcopenia")
+        st.write("Tipos de sarcopenia")
         image = Image.open("Tipos-de-sarcopenia.jpg")
 with col2:
         st.write(" ")
