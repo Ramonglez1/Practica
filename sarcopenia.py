@@ -68,7 +68,7 @@ with col3:
         st.caption(' :blue[Imagen 2: Mecanismos asociados a la sarcopenia]')
 
 
-tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Fuerza de brazo", "Circunferencia de Pantorrilla", "Velocidad de Marcha","Perimetro de Brazo","Porcentaje de grasa","Masa musculo-esquelética","grasa"])
+tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Fuerza de brazo", "Circunferencia de Pantorrilla", "Velocidad de Marcha","Perimetro de Brazo","Porcentaje de grasa","Masa musculo-esquelética","Circunferencia de cintura"])
 
 with tab1:
     st.header("Fuerza de brazo")
@@ -290,8 +290,27 @@ with tab6:
     )
 
 with tab7:
-    st.header("otro nombre")
-    st.markdown("oihfdiouhgodfhiosfhsiodfhsiofhiosf")
+    st.header("Circunferencia de cintura")
+    st.write(
+        """
+       Esta medida en adultos es de gran ayuda para estimar el riesgo cardiovascular de las personas,es una medición de fácil acceso, rápida, económica, que no requiere gran entrenamiento del evaluador y es considerada imprescindible para realizar el diagnóstico nutricional del paciente.
+
+Sabemos que la distribución de la masa grasa en el cuerpo es distinta en cada persona por lo que estos valores, no necesariamente van estimar la grasa real del cuerpo, especialmente en adultos mayores, ya que fisiológicamente estos tienen un aumento de esta.
+
+La grasa acumulada alrededor de algunos de los principales órganos del cuerpo, denominada grasa visceral, promueve alteraciones del colesterol, aumento de triglicéridos, incremento del riesgo de padecer diabetes, subida de la tensión arterial y riesgo de trombosis; todos estos factores favorecen el desarrollo de enfermedad cardiovascular. Esta acumulación de grasa es consecuencia de factores genéticos, hormonales y de seguir unos hábitos de vida poco saludables como son la mala alimentación, el consumo de tabaco, el sedentarismo o el estrés.
+
+**Circunferencia de cintura y sarcopenia**
+En los adultos mayores hay un aumento de la masa grasa, especialmente la grasa abdominal. En  edad avanzada se pierde masa corporal magra al tiempo que puede conservarse e incluso aumentar la masa grasa. Esta situación se denomina obesidad sarcopénica, de modo que la relación entre la reducción relacionada con la edad de la masa y la fuerza muscular suele ser independiente de la masa corporal.
+
+**Puntos de corte**
+La Organización Mundial de la Salud (OMS) establece el valor máximo saludable del perímetro abdominal en 88 centímetros en la mujer, mientras que en el hombre el valor es de 102 centímetros.
+
+
+**Técnica**
+El perímetro abdominal se puede medir fácilmente con una cinta métrica , así, la persona debe estar de pie, con los pies juntos, los brazos a los lados y el abdomen relajado para, a continuación, rodear su abdomen con la cinta métrica a la altura del ombligo y sin presionar hacer una inspiración profunda y al momento sacar el aire.
+
+        """
+        )
     col1, col2, col3 = st.columns(3)
     with col1:
         st.write(' ')
