@@ -219,16 +219,14 @@ with tab5:
     import streamlit as st
     
     data2 = {
-        """
-        'Clasificación': ['Delgado', 'Óptimo', 'Ligero sobrepeso', 'Sobrepeso']
-        'grasa corporal hombreen %': ['<8%', '8.1 a 15.9%', '16,0 a 20,9%', '21,0 a 24,9%']
+        'Clasificación': ['Delgado', 'Óptimo', 'Ligero sobrepeso', 'Sobrepeso'],
+        'grasa corporal hombreen %': ['<8%', '8.1 a 15.9%', '16,0 a 20,9%', '21,0 a 24,9%'],
         'grasa corporal mujer en %': ['<15%', '15,1 a 20,9%', '21,0 a 25,9%', '26,0 a 31,9%']
-"""
     }
-
     df2 = pd.DataFrame(data2)
     
     st.dataframe(df2)
+
 
 
     st.markdown(
