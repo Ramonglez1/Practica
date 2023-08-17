@@ -229,8 +229,40 @@ with tab5:
 
 
 
-    st.markdown(
+    st.write(
         """ 
+        **Técnica**
+        1. Pecho
+        Para medir el pecho, pellizca en diagonal un pliegue que quede a medio camino entre la axila y el pezón. Para las mujeres, querrá pellizcar 1/3 de la distancia entre la axila y el pezón. Esto le permitirá pellizcar lo suficientemente lejos del tejido mamario para obtener una lectura precisa.
+        
+        2. abdominales
+        La medida abdominal debe tomarse utilizando un pliegue vertical de 2 cm a la derecha de su ombligo.
+        
+        3. Suprailíaca
+        La medida suprailíaca debe tomarse utilizando un pliegue diagonal en la cresta del hueso de la cadera directamente debajo de la parte delantera de la axila. Se encuentra justo encima del hueso de la cadera.
+        
+        4. Medioaxilar
+        La medida medioaxilar debe tomarse con un pliegue vertical directamente debajo de la mitad de la axila al mismo nivel que el esternón. Para medir fácilmente esta ubicación, levante el brazo por encima de la cabeza mientras un compañero mide el área debajo de la axila.
+        
+        5. Tríceps
+        La medida del tríceps se encuentra en el punto medio de la parte posterior de la parte superior del brazo, a medio camino entre el hombro y el codo. Debe tomarse con un pliegue vertical.
+        
+        6. Subescapular
+        La medida subescapular debe tomarse con un pliegue en diagonal. Se encuentra en la región de la escápula en la parte posterior de su cuerpo. Para una lectura más precisa, el pliegue debe tomarse justo debajo del omóplato al costado de la columna.
+        
+        7. Muslo
+        La séptima y última medida es en el muslo. Para medir esta ubicación, tome un pliegue vertical a mitad de camino entre el hueso de la cadera y la rótula.
+
+        Una vez calculados los 7 pliegues, (recordad, la suma de las siete medias procedente de la triple medición de cada pliegue) aplicaremos la siguiente fórmula dependiendo de si somos hombre o mujer para obtener el % de grasa corporal.
+        
+        % Grasa HOMBRES= 495/(1.112-(0.00043499*pliegues))+(0.00000055*pliegues*pliegues)-(0.00028826*Edad))-450
+        
+        % Grasa MUJERES= 495/(1.097-(0.00046971*pliegues)+(0.00000056*pliegues*pliegues)-(0.00012828*Edad))-450
+        
+        pliegues = sustituir por la suma de los 7 pliegues.
+        
+        Edad = Sustituir por nuestra edad.
+
         """
         )
 
