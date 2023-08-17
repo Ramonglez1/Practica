@@ -269,7 +269,7 @@ with tab5:
 with tab6:
 
     st.header("Masa musculo-esquelética")
-    st.markdown(
+    st.write(
     """
     El porcentaje de masa muscular esquelética se mide utilizando técnicas de imagenología y mediciones antropométricas. Algunos de los métodos más comunes para medir la masa muscular esquelética incluyen:
 
