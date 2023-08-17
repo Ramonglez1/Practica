@@ -283,8 +283,11 @@ El porcentaje de masa muscular esquelética se mide utilizando técnicas de imag
 - **Bioimpedancia**: Este método mide la resistencia eléctrica del cuerpo al paso de una corriente eléctrica de bajo nivel. La resistencia está relacionada con la cantidad de tejido magro, incluida la masa muscular.
 
 - **Mediciones antropométricas**: Estas incluyen la medición de circunferencias de brazos, piernas y otros segmentos del cuerpo, así como la medición de pliegues cutáneos. Si bien estas medidas pueden proporcionar una estimación del contenido de grasa y masa muscular, son menos precisas que las técnicas de imagen avanzadas.
-
-**Cálculo de la masa magra**
+"""
+    )
+    st.header("Cálculo de la masa magra")
+    st.write(
+    """
 Una vez que se conoce el porcentaje de grasa corporal, es posible calcular el porcentaje de masa magra restando el porcentaje de grasa del 100%. Luego, este porcentaje se aplica al peso corporal total para obtener la masa magra estimada.
 
 La relación entre el porcentaje de masa muscular esquelética y la sarcopenia es directa. La sarcopenia se caracteriza por una disminución significativa de la masa muscular esquelética, lo que conduce a la pérdida de fuerza muscular y funcionalidad. A medida que disminuye la masa muscular, las personas pueden experimentar una disminución en su capacidad para realizar actividades diarias, lo que a su vez puede aumentar el riesgo de caídas, fracturas y discapacidad.
