@@ -273,19 +273,23 @@ with tab6:
     """
     El porcentaje de masa muscular esquelética se mide utilizando técnicas de imagenología y mediciones antropométricas. Algunos de los métodos más comunes para medir la masa muscular esquelética incluyen:
 
-    - Densitometría de Doble Energía de Rayos X (DXA o DEXA): Esta técnica se utiliza comúnmente para medir la densidad mineral ósea, pero también puede proporcionar información sobre la masa muscular magra. DXA utiliza rayos X de dos energías diferentes para medir la cantidad de tejido magro en el cuerpo.
+    - **Densitometría de Doble Energía de Rayos X (DXA o DEXA)**: Esta técnica se utiliza comúnmente para medir la densidad mineral ósea, pero también puede proporcionar información sobre la masa muscular magra. DXA utiliza rayos X de dos energías diferentes para medir la cantidad de tejido magro en el cuerpo.
 
-    - Tomografía Computarizada (TC): La TC puede utilizarse para obtener imágenes detalladas de los músculos y medir su volumen y densidad. A partir de esta información, se puede calcular el porcentaje de masa muscular esquelética.
+    - **Tomografía Computarizada (TC)**: La TC puede utilizarse para obtener imágenes detalladas de los músculos y medir su volumen y densidad. A partir de esta información, se puede calcular el porcentaje de masa muscular esquelética.
 
-    - Resonancia Magnética (RM): Al igual que la TC, la RM puede proporcionar imágenes detalladas de los tejidos musculares, lo que permite calcular el volumen y la masa muscular magra.
+    - **Resonancia Magnética (RM)**: Al igual que la TC, la RM puede proporcionar imágenes detalladas de los tejidos musculares, lo que permite calcular el volumen y la masa muscular magra.
 
-    - Bioimpedancia: Este método mide la resistencia eléctrica del cuerpo al paso de una corriente eléctrica de bajo nivel. La resistencia está relacionada con la cantidad de tejido magro, incluida la masa muscular.
+    - **Bioimpedancia**: Este método mide la resistencia eléctrica del cuerpo al paso de una corriente eléctrica de bajo nivel. La resistencia está relacionada con la cantidad de tejido magro, incluida la masa muscular.
 
-    - Mediciones antropométricas: Estas incluyen la medición de circunferencias de brazos, piernas y otros segmentos del cuerpo, así como la medición de pliegues cutáneos. Si bien estas medidas pueden proporcionar una estimación del contenido de grasa y masa muscular, son menos precisas que las técnicas de imagen avanzadas.
+    - **Mediciones antropométricas**: Estas incluyen la medición de circunferencias de brazos, piernas y otros segmentos del cuerpo, así como la medición de pliegues cutáneos. Si bien estas medidas pueden proporcionar una estimación del contenido de grasa y masa muscular, son menos precisas que las técnicas de imagen avanzadas.
+
+    **Cálculo de la masa magra**
+Una vez que se conoce el porcentaje de grasa corporal, es posible calcular el porcentaje de masa magra restando el porcentaje de grasa del 100%. Luego, este porcentaje se aplica al peso corporal total para obtener la masa magra estimada.
 
     La relación entre el porcentaje de masa muscular esquelética y la sarcopenia es directa. La sarcopenia se caracteriza por una disminución significativa de la masa muscular esquelética, lo que conduce a la pérdida de fuerza muscular y funcionalidad. A medida que disminuye la masa muscular, las personas pueden experimentar una disminución en su capacidad para realizar actividades diarias, lo que a su vez puede aumentar el riesgo de caídas, fracturas y discapacidad.
 
     La medición del porcentaje de masa muscular esquelética es importante en la evaluación y diagnóstico de la sarcopenia. La disminución de la masa muscular es un marcador clave de la enfermedad y se utiliza para identificar a las personas en riesgo de desarrollar sarcopenia. Los profesionales de la salud pueden utilizar estas mediciones junto con otras evaluaciones clínicas y funcionales para determinar si una persona tiene sarcopenia y desarrollar un plan de tratamiento adecuado, que puede incluir ejercicio, cambios en la dieta y otras intervenciones.
+
     """
     )
 
