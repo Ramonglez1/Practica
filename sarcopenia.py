@@ -187,7 +187,7 @@ with tab4:
 with tab5:
     
     st.header("Porcentaje de Grasa")
-    st.markdown(
+    st.write(
     """ 
     El porcentaje de grasa corporal se mide utilizando una variedad de métodos, que van desde técnicas más simples hasta métodos más avanzados y precisos. Algunas de las formas comunes de medir el porcentaje de grasa corporal incluyen:
 
@@ -211,7 +211,7 @@ with tab5:
 
     Esta será una prueba habrá 7 ubicaciones que querrá medir utilizando la formula Jackson y Pollock 7. En cada ubicación, querrá tomar 3 medidas para promediar y, en última instancia, conectarlas al cálculo del porcentaje de grasa corporal. Antes de tomar las 3 medidas, debe marcar la ubicación con una “t”, pellizcando la cruz con el calibrador para obtener una lectura consistente cada vez.
 
-**Porcentaje de grasa corporal normal**
+    **Porcentaje de grasa corporal normal**
 """
     )
 
