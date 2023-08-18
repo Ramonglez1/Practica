@@ -56,8 +56,8 @@ col1, col2, col3 = st.columns(3)
 with col1:
         st.write(" ")
         image1 = "Tipos-de-sarcopenia.jpg"
-        st.image(image1)
         width = 800
+        st.image(image1,width = 800)
         st.caption(' :blue[Imagen 1: Tipos de Sarcopenia]')
 with col2:
         st.write(" ")
