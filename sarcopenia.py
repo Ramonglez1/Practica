@@ -98,16 +98,21 @@ El punto de corte para ser criterio de sarcopenia es:
     
     st.dataframe(df)
     
-    st.markdown(
-                """
     
+with st.expander("*Variables de interés*"):
+            st.write(
+"""
     **Técnica**
     1. Se le indica al paciente que se siente con los codos flexionados a 90 grados y los antebrazos en posición neutra. 
     2. Los brazos no deben apoyarse en un apoyabrazos ni ningún otro sitio durante la prueba.
     3. Luego el paciente ejerce presión en la manija del dinamómetro durante algunos segundos. El dinamómetro expresa el resultado en kilogramos.
     4. Dejar descansar al paciente durante 1 minuto y repetir la prueba.
     5. Realizar la prueba en ambas extremidades
-    
+
+    """
+    )
+    st.markdown(
+                """
     **NOTA**
     Diferencias de fuerza en la mano dominante, ¿cuál tomar en cuenta?
     La mayor fuerza en la mano dominante está en 5-40% y puede estar o no relacionada con la actividad laboral. Se toma en cuenta el resultado de la mano con menor fuerza.
