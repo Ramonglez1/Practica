@@ -99,10 +99,9 @@ El punto de corte para ser criterio de sarcopenia es:
     st.dataframe(df)
     
     
-    with st.expander("*Técnica*"):
+    with st.expander("**Técnica**"):
             st.write(
 """
-    **Técnica**
     1. Se le indica al paciente que se siente con los codos flexionados a 90 grados y los antebrazos en posición neutra. 
     2. Los brazos no deben apoyarse en un apoyabrazos ni ningún otro sitio durante la prueba.
     3. Luego el paciente ejerce presión en la manija del dinamómetro durante algunos segundos. El dinamómetro expresa el resultado en kilogramos.
