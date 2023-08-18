@@ -99,7 +99,7 @@ El punto de corte para ser criterio de sarcopenia es:
     st.dataframe(df)
     
     
-with st.expander("*Variables de interés*"):
+with st.expander("*Técnica*"):
             st.write(
 """
     **Técnica**
