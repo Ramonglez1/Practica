@@ -140,6 +140,7 @@ with tab2:
 """
 Técnica de realización.
 – Como pauta general se realizan los siguientes pasos:
+
 • El sujeto puede estar sentado con la pierna izquierda descubierta colgando libremente o de pie erguido con los pies separados en unos 20 cm y con el peso distribuido uniformemente sobre ambos pies.
 • Se coloca la cinta métrica en forma horizontal alrededor de la pantorrilla y se mueve hacia arriba y abajo para ubicar el perímetro máximo en un plano perpendicular al eje longitudinal de la pantorrilla.
 • La cinta métrica debe estar en contacto con la piel en toda la circunferencia pero no debe producir presión.
