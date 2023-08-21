@@ -139,22 +139,18 @@ with tab2:
             st.write(
 """
 Técnica de realización.
+
 – Como pauta general se realizan los siguientes pasos:
 
 1. El sujeto puede estar sentado con la pierna izquierda descubierta colgando libremente o de pie erguido con los pies separados en unos 20 cm y con el peso distribuido uniformemente sobre ambos pies.
-
 2. Se coloca la cinta métrica en forma horizontal alrededor de la pantorrilla y se mueve hacia arriba y abajo para ubicar el perímetro máximo en un plano perpendicular al eje longitudinal de la pantorrilla.
-
 3. La cinta métrica debe estar en contacto con la piel en toda la circunferencia pero no debe producir presión.
-
 4. Se registrará la medición redondeando al milímetro más cercano.
 
 – En los pacientes encamados:
 
 1. Colocar al paciente en posición supina, con la rodilla de la pierna a medir flexionada en un ángulo de 90 º.
-
 2. Colocar la cinta métrica en la pantorrilla en el diámetro mayor.
-
 3. Ajustar la cinta sin comprimir y realizar la lectura. Mediciones repetidas no deberían ocasionar diferencias mayores de 0,5 cm.
 
     """
