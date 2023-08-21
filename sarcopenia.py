@@ -431,6 +431,13 @@ El perímetro abdominal se puede medir fácilmente con una cinta métrica , así
     st.markdown(f"[{link_text_3}]({link_url_3})")
         """
         )
+        
+    link_url_3= "https://www.who.int/es/news-room/fact-sheets/detail/obesity-and-overweight"
+    link_text_3= "Mas infromación"
+    # Crear un enlace que redirecciona al hacer clic
+    st.markdown(f"[{link_text_3}]({link_url_3})")
+
+    
     col1, col2, col3 = st.columns(3)
     with col1:
         st.write(' ')
