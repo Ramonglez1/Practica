@@ -173,12 +173,7 @@ Se ha demostrado que una velocidad de marcha lenta se asocia con un mayor riesgo
     """
     )
   
-    link_url = "https://lafisioterapia.net/velocidad-de-la-marcha-sobre-4-metros/#:~:text=Consiste%20en%20medir%20el%20tiempo,usar%20su%20bast%C3%B3n%20o%20andador."
-    link_text = "Mas infromación"
-    # Crear un enlace que redirecciona al hacer clic
-    st.markdown(f"[{link_text}]({link_url})")
-    
-                
+          
     with st.expander("**Técnica**"):
             st.write(
 """
@@ -189,6 +184,14 @@ Es necesario  espacio suficiente para realizar las dos marcas en el suelo separa
 Se considera con alta probabilidad de sarcopenia a aquellas personas con VM <0,8 m/s, es decir, aquellas que tardan más de 5 segundos en recorrer los 4 metros. 
 """
             )
+
+    link_url = "https://www.sciencedirect.com/science/article/pii/S0212656711002459?via%3Dihub"
+    link_text = "Mas infromación"
+    # Crear un enlace que redirecciona al hacer clic
+    st.markdown(f"[{link_text}]({link_url})")
+
+
+    
     col1, col2, col3 = st.columns(3)
     with col1:
         st.write(" ")
@@ -370,6 +373,7 @@ st.write(
     """
 Cruz-Jentoft AJ, Baeyens JP, Bauer JM, Boirie Y, Cederholm T, Landi F, Martin FC, Michel JP, Rolland Y, Schneider SM, Topinková E, Vandewoude M, Zamboni M; European Working Group on Sarcopenia in Older People. Sarcopenia: European consensus on definition and diagnosis: Report of the European Working Group on Sarcopenia in Older People. Age Ageing. 2010 Jul;39(4):412-23. doi: 10.1093/ageing/afq034. Epub 2010 Apr 13. PMID: 20392703; PMCID: PMC2886201.
 
+Abizanda Soler, P., López-Torres Hidalgo, J., Romero Rizos, L., Sánchez Jurado, P. M., García Nogueras, I., & Esquinas Requena, J. L. (2012). Valores normativos de instrumentos de valoración funcional en ancianos españoles: estudio FRADEA. Atención primaria, 44(3), 162–171.
 """
 )
 
