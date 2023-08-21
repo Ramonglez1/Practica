@@ -385,15 +385,22 @@ La grasa acumulada alrededor de algunos de los principales órganos del cuerpo, 
 En los adultos mayores hay un aumento de la masa grasa, especialmente la grasa abdominal. En  edad avanzada se pierde masa corporal magra al tiempo que puede conservarse e incluso aumentar la masa grasa. Esta situación se denomina obesidad sarcopénica, de modo que la relación entre la reducción relacionada con la edad de la masa y la fuerza muscular suele ser independiente de la masa corporal.
 
 **Puntos de corte**
-La Organización Mundial de la Salud (OMS) establece el valor máximo saludable del perímetro abdominal en 88 centímetros en la mujer, mientras que en el hombre el valor es de 102 centímetros.
+La Organización Mundial de la Salud (OMS) establece el valor máximo saludable del perímetro abdominal:
+-88 centímetros en la mujer, 
+-102 Centimestros en hombre
 """
     )
+
     with st.expander("**Técnica**"):
         st.write(
 """
 **Técnica**
 El perímetro abdominal se puede medir fácilmente con una cinta métrica , así, la persona debe estar de pie, con los pies juntos, los brazos a los lados y el abdomen relajado para, a continuación, rodear su abdomen con la cinta métrica a la altura del ombligo y sin presionar hacer una inspiración profunda y al momento sacar el aire.
 
+    link_url_3= "https://www.who.int/es/news-room/fact-sheets/detail/obesity-and-overweight"
+    link_text_3= "Mas infromación"
+    # Crear un enlace que redirecciona al hacer clic
+    st.markdown(f"[{link_text_3}]({link_url_3})")
         """
         )
     col1, col2, col3 = st.columns(3)
@@ -404,6 +411,7 @@ El perímetro abdominal se puede medir fácilmente con una cinta métrica , así
     with col3:
         st.write(' ')
 
+
 st.header("Bibliografia")
 st.write(
     """
@@ -412,6 +420,8 @@ Cruz-Jentoft AJ, Baeyens JP, Bauer JM, Boirie Y, Cederholm T, Landi F, Martin FC
 Abizanda Soler, P., López-Torres Hidalgo, J., Romero Rizos, L., Sánchez Jurado, P. M., García Nogueras, I., & Esquinas Requena, J. L. (2012). Valores normativos de instrumentos de valoración funcional en ancianos españoles: estudio FRADEA. Atención primaria, 44(3), 162–171.
 
 Universidad Autónoma de Yucatán. MANUAL DE PROCEDIMIENTOS PARA LA TOMA DE MEDIDAS Y VALORACIONES CLINICAS, ANTROPOMETRICAS, DE FLEXIBILIDAD Y MOVIMIENTO EN EL ADULTO MAYOR. Facultad de Medicina. Mérida, Yucatán, México; 2003, http://www.cenaprece.salud.gob.mx/programas/interior/adulto/descargas/pdf/1.4_MANUAL_PROCEDIMIENTOS_TOMA_MEDIDAS.pdf
+
+https://www.who.int/es/news-room/fact-sheets/detail/obesity-and-overweight
 """
 )
 
