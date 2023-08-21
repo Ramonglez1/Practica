@@ -264,7 +264,7 @@ with tab5:
     """
             )
         
- st.write(
+     st.write(
     """ 
     La relación entre el porcentaje de grasa corporal y la sarcopenia es importante debido a su interacción en la composición corporal general. La sarcopenia se caracteriza por la pérdida de masa muscular esquelética, mientras que el aumento del porcentaje de grasa corporal puede llevar a un exceso de peso y obesidad. La sarcopenia y la obesidad a menudo se denominan "obesidad sarcopénica" cuando ocurren juntas.
 
@@ -294,7 +294,7 @@ with tab5:
 
 
 
- with st.expander("**Técnicas para caluclar la grasa corporal**"):
+    with st.expander("**Técnica**"):
             st.write(
 """
         **Técnica**
