@@ -130,7 +130,7 @@ with tab2:
     st.markdown(
     """
     La prueba de circunferencia de pantorrilla es una medida clínica utilizada para evaluar la masa muscular periférica en adultos mayores. Esta prueba es una evaluación simple y no invasiva de la masa muscular que se puede realizar en un entorno clínico o en el hogar. La circunferencia de la pantorrilla es un indicador útil de la masa muscular periférica debido a la alta correlación entre la circunferencia de la pantorrilla y la masa muscular total. La disminución de la masa muscular periférica es un indicador común de la disminución de la fuerza y ​​la función muscular en adultos mayores, lo que se asocia con una mayor discapacidad, caídas y mortalidad. Para realizar la prueba de circunferencia de pantorrilla, se mide la circunferencia de la pantorrilla desnuda en la pierna dominante, en un punto específico, generalmente en la parte más ancha de la pantorrilla.
-    """"
+    """
     )
   with st.expander("**Técnica**"):
             st.write(
