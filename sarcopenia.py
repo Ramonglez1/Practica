@@ -172,11 +172,13 @@ En particular, se ha demostrado que la velocidad de marcha se correlaciona con l
 Se ha demostrado que una velocidad de marcha lenta se asocia con un mayor riesgo de mortalidad en esta población. En resumen, la prueba de velocidad de marcha es una herramienta importante para la evaluación de la capacidad funcional y la salud en adultos mayores. Permite a los profesionales de la salud identificar a las personas que pueden estar en mayor riesgo de limitaciones funcionales y desarrollar planes de tratamiento y prevención para mejorar su calidad de vida y reducir su riesgo de mortalidad.
     """
     )
-    import streamlit as st
+  
     link_url = "https://lafisioterapia.net/velocidad-de-la-marcha-sobre-4-metros/#:~:text=Consiste%20en%20medir%20el%20tiempo,usar%20su%20bast%C3%B3n%20o%20andador."
     link_text = "Mas infromación"
     # Crear un enlace que redirecciona al hacer clic
-    st.markdown(f"[{link_text}]({link_url})"
+    st.markdown(f"[{link_text}]({link_url})")
+    
+                
     with st.expander("**Técnica**"):
             st.write(
 """
