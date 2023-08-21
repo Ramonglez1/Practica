@@ -332,6 +332,11 @@ with tab5:
         """
         )
 
+    link_url_2= "http://www.saludmed.com/labsfisiologiaejercicio/composicioncorporal/LAB_H18-Porciento_Grasa.pdf"
+    link_text_2= "Mas infromación"
+    # Crear un enlace que redirecciona al hacer clic
+    st.markdown(f"[{link_text_2}]({link_url_2})")
+    
 with tab6:
 
     st.header("Masa musculo-esquelética")
