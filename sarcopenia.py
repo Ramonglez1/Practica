@@ -223,6 +223,7 @@ Identifique el punto medio existente entre la saliente ósea del acromion y el o
 
 Observe que la cinta métrica permanezca alineada con respecto al brazo. Realice el procedimiento por triplicado y anote el valor promedio.
 """
+            )
     link_url_1= "http://www.cenaprece.salud.gob.mx/programas/interior/adulto/descargas/pdf/1.4_MANUAL_PROCEDIMIENTOS_TOMA_MEDIDAS.pdf"
     link_text_1= "Mas infromación"
     # Crear un enlace que redirecciona al hacer clic
