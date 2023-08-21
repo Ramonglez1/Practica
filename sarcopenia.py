@@ -135,7 +135,18 @@ with tab2:
     with st.expander("**Técnica**"):
             st.write(
 """
-La medida se toma utilizando una cinta métrica flexible y se registra en centímetros. Los valores normales de la circunferencia de la pantorrilla pueden variar según la edad, el sexo y la etnia, pero generalmente se considera normal una medida superior a 31 cm en mujeres y 34 cm en hombres. La prueba de circunferencia de pantorrilla es una herramienta útil para la evaluación de la masa muscular periférica en adultos mayores, pero debe usarse junto con otras medidas clínicas y pruebas de función muscular para una evaluación más completa del estado de la masa muscular y la fuerza en los adultos mayores. 
+Técnica de realización.
+– Como pauta general se realizan los siguientes pasos:
+• El sujeto puede estar sentado con la pierna izquierda descubierta colgando libremente o de pie erguido con los pies separados en unos 20 cm y con el peso distribuido uniformemente sobre ambos pies.
+• Se coloca la cinta métrica en forma horizontal alrededor de la pantorrilla y se mueve hacia arriba y abajo para ubicar el perímetro máximo en un plano perpendicular al eje longitudinal de la pantorrilla.
+• La cinta métrica debe estar en contacto con la piel en toda la circunferencia pero no debe producir presión.
+• Se registrará la medición redondeando al milímetro más cercano.
+
+– En los pacientes encamados:
+• Colocar al paciente en posición supina, con la rodilla de la pierna a medir flexionada en un ángulo de 90 º.
+• Colocar la cinta métrica en la pantorrilla en el diámetro mayor.
+• Ajustar la cinta sin comprimir y realizar la lectura. Mediciones repetidas no deberían ocasionar diferencias mayores de 0,5 cm.
+Interpretación de resultados. La medición de la circunferencia de la pantorrilla interviene en la evaluación del estado nutricional de la persona anciana a través del test Mini Nutritional Assessment (MNA).
     """
     )
     col1, col2, col3 = st.columns(3)
@@ -154,10 +165,24 @@ with tab3:
     st.header("Velocidad de Marcha")
     st.markdown(
     """ 
-    La prueba de velocidad de marcha, también conocida como prueba de la marcha de 4 metros, es una evaluación simple y rápida que se utiliza comúnmente en adultos mayores para medir su velocidad de marcha y su capacidad funcional. La prueba implica cronometrar el tiempo que tarda una persona en caminar cuatro metros a su ritmo habitual. La velocidad de marcha se considera un predictor importante de la capacidad funcional de los adultos mayores, lo que significa que puede ser un indicador de su capacidad para realizar actividades diarias y su calidad de vida en general. En particular, se ha demostrado que la velocidad de marcha se correlaciona con la capacidad para realizar actividades básicas de la vida diaria, como levantarse de una silla, caminar y subir escaleras, así como con la capacidad para realizar actividades instrumentales de la vida diaria, como hacer compras, cocinar y manejar el dinero. Además de ser una herramienta útil para la evaluación de la capacidad funcional, la prueba de velocidad de marcha también se ha utilizado como predictor de la mortalidad en adultos mayores. Se ha demostrado que una velocidad de marcha lenta se asocia con un mayor riesgo de mortalidad en esta población. En resumen, la prueba de velocidad de marcha es una herramienta importante para la evaluación de la capacidad funcional y la salud en adultos mayores. Permite a los profesionales de la salud identificar a las personas que pueden estar en mayor riesgo de limitaciones funcionales y desarrollar planes de tratamiento y prevención para mejorar su calidad de vida y reducir su riesgo de mortalidad.
+    La prueba de velocidad de marcha, también conocida como prueba de la marcha de 4 metros, es una evaluación simple y rápida que se utiliza comúnmente en adultos mayores para medir su velocidad de marcha y su capacidad funcional. La prueba implica cronometrar el tiempo que tarda una persona en caminar cuatro metros a su ritmo habitual. La velocidad de marcha se considera un predictor importante de la capacidad funcional de los adultos mayores, lo que significa que puede ser un indicador de su capacidad para realizar actividades diarias y su calidad de vida en general. 
+    
+En particular, se ha demostrado que la velocidad de marcha se correlaciona con la capacidad para realizar actividades básicas de la vida diaria, como levantarse de una silla, caminar y subir escaleras, así como con la capacidad para realizar actividades instrumentales de la vida diaria, como hacer compras, cocinar y manejar el dinero. Además de ser una herramienta útil para la evaluación de la capacidad funcional, la prueba de velocidad de marcha también se ha utilizado como predictor de la mortalidad en adultos mayores. 
+    
+Se ha demostrado que una velocidad de marcha lenta se asocia con un mayor riesgo de mortalidad en esta población. En resumen, la prueba de velocidad de marcha es una herramienta importante para la evaluación de la capacidad funcional y la salud en adultos mayores. Permite a los profesionales de la salud identificar a las personas que pueden estar en mayor riesgo de limitaciones funcionales y desarrollar planes de tratamiento y prevención para mejorar su calidad de vida y reducir su riesgo de mortalidad.
     """
     )
+    with st.expander("**Técnica**"):
+            st.write(
+"""
+Es necesario  espacio suficiente para realizar las dos marcas en el suelo separadas por 4 metros. Lo ideal es tener un espacio fijo, ya marcado, en el que administrar la prueba. Realiza las marcas de inicio y de llegada con cinta adhesiva o píntalas con rotulador indeleble.
+•Se le indica al paciente recorrer la distancia establecida de 4 metros.
+•Se tomará con un cronómetro el tiempo el paciente necesito para recorrer los 4 metros.
 
+Se considera con alta probabilidad de sarcopenia a aquellas personas con VM <0,8 m/s, es decir, aquellas que tardan más de 5 segundos en recorrer los 4 metros. 
+
+"""
+            )
     col1, col2, col3 = st.columns(3)
     with col1:
         st.write(" ")
