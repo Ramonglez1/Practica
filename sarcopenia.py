@@ -294,7 +294,7 @@ with tab5:
 
 
 
-    with st.expander("**Técnica**"):
+    with st.expander("**Técnica utilizando la formula Jackson y Pollock**"):
             st.write(
 """
         **Técnica**
@@ -319,15 +319,15 @@ with tab5:
         7. Muslo
         La séptima y última medida es en el muslo. Para medir esta ubicación, tome un pliegue vertical a mitad de camino entre el hueso de la cadera y la rótula.
 
-        Una vez calculados los 7 pliegues, (recordad, la suma de las siete medias procedente de la triple medición de cada pliegue) aplicaremos la siguiente fórmula dependiendo de si somos hombre o mujer para obtener el % de grasa corporal.
+        **Una vez calculados los 7 pliegues, (recordad, la suma de las siete medias procedente de la triple medición de cada pliegue) aplicaremos la siguiente fórmula dependiendo de si somos hombre o mujer para obtener el % de grasa corporal.**
         
-        % Grasa HOMBRES= 495/(1.112-(0.00043499*pliegues))+(0.00000055*pliegues*pliegues)-(0.00028826*Edad))-450
+        **% Grasa HOMBRES**= 495/(1.112-(0.00043499 x pliegues))+(0.00000055*pliegues x pliegues)-(0.00028826*Edad))-450
         
-        % Grasa MUJERES= 495/(1.097-(0.00046971*pliegues)+(0.00000056*pliegues*pliegues)-(0.00012828*Edad))-450
+        **% Grasa MUJERES** = 495/(1.097-(0.00046971 x pliegues)+(0.00000056*pliegues x pliegues)-(0.00012828*Edad))-450
         
-        pliegues = sustituir por la suma de los 7 pliegues.
+        **pliegues** = sustituir por la suma de los 7 pliegues.
         
-        Edad = Sustituir por nuestra edad.
+        **Edad** = Sustituir por nuestra edad.
 
         """
         )
@@ -342,8 +342,12 @@ with tab6:
     st.header("Masa musculo-esquelética")
     st.write(
     """
-El porcentaje de masa muscular esquelética se mide utilizando técnicas de imagenología y mediciones antropométricas. Algunos de los métodos más comunes para medir la masa muscular esquelética incluyen:
-
+El porcentaje de masa muscular esquelética se mide utilizando técnicas de imagenología y mediciones antropométricas.
+"""
+    )
+    with st.expander("**Algunos de los métodos más comunes para medir la masa muscular esquelética incluyen**"):
+        st.write(
+"""
 - **Densitometría de Doble Energía de Rayos X (DXA o DEXA)**: Esta técnica se utiliza comúnmente para medir la densidad mineral ósea, pero también puede proporcionar información sobre la masa muscular magra. DXA utiliza rayos X de dos energías diferentes para medir la cantidad de tejido magro en el cuerpo.
 
 - **Tomografía Computarizada (TC)**: La TC puede utilizarse para obtener imágenes detalladas de los músculos y medir su volumen y densidad. A partir de esta información, se puede calcular el porcentaje de masa muscular esquelética.
