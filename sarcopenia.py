@@ -241,10 +241,12 @@ La fórmula para calcular el Índice de Masa Corporal del Brazo (IMCB) es la sig
 Donde:
 
 1.La Circunferencia del brazo es la medida alrededor del brazo en el punto medio entre el hombro y el codo.
+
 2.PI representa el valor constante de Pi, que es aproximadamente 3.14159.
+
 3.El Pliegue cutáneo del tríceps es una medición de grosor de la piel y la grasa en la parte posterior del brazo, tomada con un calibrador de pliegues cutáneos.
 
-Nota: Para calcular el pliegue cutáneo del trícepsel brazo del sujeto debe luego colgar suelto hacia un lado, con la palma dirigida anteriormente para determinar apropiadamente la linea media posterior.
+**Nota**: Para calcular el pliegue cutáneo del trícepsel brazo del sujeto debe luego colgar suelto hacia un lado, con la palma dirigida anteriormente para determinar apropiadamente la linea media posterior.
 
 El sitio de pliegue cutáneo debe ser marcado a lo largo de la linea media posterior del brazo
 
