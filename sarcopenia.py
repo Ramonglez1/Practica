@@ -233,6 +233,21 @@ with tab4:
 Identifique el punto medio existente entre la saliente ósea del acromion y el olécranon, a lo largo de la lateral del brazo no dominante, con el codo flexionado a 90°. Una vez identificado el punto medio, se deja caer el brazo de manera natural, y se coloca la cinta horizontalmente alrededor del punto indicado.
 
 Observe que la cinta métrica permanezca alineada con respecto al brazo. Realice el procedimiento por triplicado y anote el valor promedio.
+
+La fórmula para calcular el Índice de Masa Corporal del Brazo (IMCB) es la siguiente:
+
+**IMCB = Circunferencia del brazo (cm) / (PI * Pliegue cutáneo del tríceps, en mm)**
+
+Donde:
+
+1.La Circunferencia del brazo es la medida alrededor del brazo en el punto medio entre el hombro y el codo.
+2.PI representa el valor constante de Pi, que es aproximadamente 3.14159.
+3.El Pliegue cutáneo del tríceps es una medición de grosor de la piel y la grasa en la parte posterior del brazo, tomada con un calibrador de pliegues cutáneos.
+
+Nota: Para calcular el pliegue cutáneo del trícepsel brazo del sujeto debe luego colgar suelto hacia un lado, con la palma dirigida anteriormente para determinar apropiadamente la linea media posterior.
+
+El sitio de pliegue cutáneo debe ser marcado a lo largo de la linea media posterior del brazo
+
 """
             )
     link_url_1= "http://www.cenaprece.salud.gob.mx/programas/interior/adulto/descargas/pdf/1.4_MANUAL_PROCEDIMIENTOS_TOMA_MEDIDAS.pdf"
