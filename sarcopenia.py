@@ -179,9 +179,8 @@ Se ha demostrado que una velocidad de marcha lenta se asocia con un mayor riesgo
 """
 Es necesario  espacio suficiente para realizar las dos marcas en el suelo separadas por 4 metros. Lo ideal es tener un espacio fijo, ya marcado, en el que administrar la prueba. Realiza las marcas de inicio y de llegada con cinta adhesiva o píntalas con rotulador indeleble.
 
-•Se le indica al paciente recorrer la distancia establecida de 4 metros.
-
-•Se tomará con un cronómetro el tiempo el paciente necesito para recorrer los 4 metros.
+    •Se le indica al paciente recorrer la distancia establecida de 4 metros.
+    •Se tomará con un cronómetro el tiempo el paciente necesito para recorrer los 4 metros.
 
 Se considera con alta probabilidad de sarcopenia a aquellas personas con VM <0,8 m/s, es decir, aquellas que tardan más de 5 segundos en recorrer los 4 metros. 
 """
@@ -208,7 +207,6 @@ with tab4:
     st.header("Circunferencia de brazo")
     st.markdown(
     """ 
-    El perímetro del brazo se mide como la circunferencia alrededor del brazo, generalmente en la mitad superior del brazo. Para medir el perímetro del brazo, se utiliza una cinta métrica flexible y no elástica. El individuo debe estar de pie o sentado con el brazo relajado y extendido a lo largo del cuerpo. La cinta métrica se coloca alrededor del brazo en el punto medio entre el hombro y el codo, asegurándose de que esté nivelada y ajustada sin apretar demasiado la piel. La medición se toma en centímetros o pulgadas, y se registra como la circunferencia del brazo.
 
     La relación entre el perímetro del brazo y la sarcopenia se basa en la idea de que el perímetro del brazo puede ser un indicador indirecto de la masa muscular en esa región del cuerpo. Un brazo más delgado podría estar relacionado con una disminución de la masa muscular, lo que podría ser un signo de sarcopenia. Sin embargo, es importante tener en cuenta que el perímetro del brazo por sí solo no proporciona una imagen completa de la salud muscular y no es un diagnóstico definitivo de sarcopenia.
 
@@ -217,7 +215,19 @@ with tab4:
     En resumen, el perímetro del brazo puede ser una medida simple y rápida para evaluar posibles signos de pérdida de masa muscular, pero se utiliza mejor en conjunto con otras medidas y pruebas más completas para evaluar y diagnosticar la sarcopenia de manera precisa. Si tienes preocupaciones sobre la sarcopenia, es importante hablar con un profesional de la salud para una evaluación completa y adecuada.
     """
     )
- 
+
+    with st.expander("**Técnica**"):
+            st.write(
+"""
+Identifique el punto medio existente entre la saliente ósea del acromion y el olécranon, a lo largo de la lateral del brazo no dominante, con el codo flexionado a 90°. Una vez identificado el punto medio, se deja caer el brazo de manera natural, y se coloca la cinta horizontalmente alrededor del punto indicado.
+
+Observe que la cinta métrica permanezca alineada con respecto al brazo. Realice el procedimiento por triplicado y anote el valor promedio.
+"""
+    link_url1 = "http://www.cenaprece.salud.gob.mx/programas/interior/adulto/descargas/pdf/1.4_MANUAL_PROCEDIMIENTOS_TOMA_MEDIDAS.pdf"
+    link_text1= "Mas infromación"
+    # Crear un enlace que redirecciona al hacer clic
+    st.markdown(f"[{link_text1}]({link_url1})")
+                
     col1, col2, col3 = st.columns(3)
     with col1:
         st.write(" ")
@@ -376,6 +386,8 @@ st.write(
 Cruz-Jentoft AJ, Baeyens JP, Bauer JM, Boirie Y, Cederholm T, Landi F, Martin FC, Michel JP, Rolland Y, Schneider SM, Topinková E, Vandewoude M, Zamboni M; European Working Group on Sarcopenia in Older People. Sarcopenia: European consensus on definition and diagnosis: Report of the European Working Group on Sarcopenia in Older People. Age Ageing. 2010 Jul;39(4):412-23. doi: 10.1093/ageing/afq034. Epub 2010 Apr 13. PMID: 20392703; PMCID: PMC2886201.
 
 Abizanda Soler, P., López-Torres Hidalgo, J., Romero Rizos, L., Sánchez Jurado, P. M., García Nogueras, I., & Esquinas Requena, J. L. (2012). Valores normativos de instrumentos de valoración funcional en ancianos españoles: estudio FRADEA. Atención primaria, 44(3), 162–171.
+
+Universidad Autónoma de Yucatán. MANUAL DE PROCEDIMIENTOS PARA LA TOMA DE MEDIDAS Y VALORACIONES CLINICAS, ANTROPOMETRICAS, DE FLEXIBILIDAD Y MOVIMIENTO EN EL ADULTO MAYOR. Facultad de Medicina. Mérida, Yucatán, México; 2003, http://www.cenaprece.salud.gob.mx/programas/interior/adulto/descargas/pdf/1.4_MANUAL_PROCEDIMIENTOS_TOMA_MEDIDAS.pdf
 """
 )
 
