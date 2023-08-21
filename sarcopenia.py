@@ -362,7 +362,7 @@ El porcentaje de masa muscular esquelética se mide utilizando técnicas de imag
     st.header("Cálculo de la masa magra")
     st.write(
     """
-Una vez que se conoce el porcentaje de grasa corporal, es posible calcular el porcentaje de masa magra restando el porcentaje de grasa del 100%. Luego, este porcentaje se aplica al peso corporal total para obtener la masa magra estimada.
+**Una vez que se conoce el porcentaje de grasa corporal, es posible calcular el porcentaje de masa magra restando el porcentaje de grasa del 100%**. Luego, este porcentaje se aplica al peso corporal total para obtener la masa magra estimada.
 
 La relación entre el porcentaje de masa muscular esquelética y la sarcopenia es directa. La sarcopenia se caracteriza por una disminución significativa de la masa muscular esquelética, lo que conduce a la pérdida de fuerza muscular y funcionalidad. A medida que disminuye la masa muscular, las personas pueden experimentar una disminución en su capacidad para realizar actividades diarias, lo que a su vez puede aumentar el riesgo de caídas, fracturas y discapacidad.
 
@@ -377,7 +377,7 @@ with tab7:
         """
        Esta medida en adultos es de gran ayuda para estimar el riesgo cardiovascular de las personas,es una medición de fácil acceso, rápida, económica, que no requiere gran entrenamiento del evaluador y es considerada imprescindible para realizar el diagnóstico nutricional del paciente.
 
-Sabemos que la distribución de la masa grasa en el cuerpo es distinta en cada persona por lo que estos valores, no necesariamente van estimar la grasa real del cuerpo, especialmente en adultos mayores, ya que fisiológicamente estos tienen un aumento de esta.
+**Sabemos que la distribución de la masa grasa en el cuerpo es distinta en cada persona por lo que estos valores, no necesariamente van estimar la grasa real del cuerpo**, especialmente en adultos mayores, ya que fisiológicamente estos tienen un aumento de esta.
 
 La grasa acumulada alrededor de algunos de los principales órganos del cuerpo, denominada grasa visceral, promueve alteraciones del colesterol, aumento de triglicéridos, incremento del riesgo de padecer diabetes, subida de la tensión arterial y riesgo de trombosis; todos estos factores favorecen el desarrollo de enfermedad cardiovascular. Esta acumulación de grasa es consecuencia de factores genéticos, hormonales y de seguir unos hábitos de vida poco saludables como son la mala alimentación, el consumo de tabaco, el sedentarismo o el estrés.
 
@@ -386,8 +386,11 @@ En los adultos mayores hay un aumento de la masa grasa, especialmente la grasa a
 
 **Puntos de corte**
 La Organización Mundial de la Salud (OMS) establece el valor máximo saludable del perímetro abdominal en 88 centímetros en la mujer, mientras que en el hombre el valor es de 102 centímetros.
-
-
+"""
+    )
+    with st.expander("**Técnica**"):
+        st.write(
+"""
 **Técnica**
 El perímetro abdominal se puede medir fácilmente con una cinta métrica , así, la persona debe estar de pie, con los pies juntos, los brazos a los lados y el abdomen relajado para, a continuación, rodear su abdomen con la cinta métrica a la altura del ombligo y sin presionar hacer una inspiración profunda y al momento sacar el aire.
 
