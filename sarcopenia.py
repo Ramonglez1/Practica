@@ -52,18 +52,16 @@ st.markdown(
 
 
 
-col1, col2, col3 = st.columns(3)
+col1, col2, = st.columns(2)
 with col1:
         st.write(" ")
         image1 = "Tipos-de-sarcopenia.jpg"
         st.image(image1, width = 400)
         st.caption(' :blue[Imagen 1: Tipos de Sarcopenia]')
 with col2:
-        st.write(" ")
-with col3:
         st.write(' ')
         image2 = "Mecanismodesarcopenia.jpg"
-        st.image(image2,   width = 400)
+        st.image(image2,   width = 450)
         width = 800
         st.caption(' :blue[Imagen 2: Mecanismos asociados a la sarcopenia]')
 
