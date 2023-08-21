@@ -115,6 +115,12 @@ El punto de corte para ser criterio de sarcopenia es:
     
                 """
         )    
+
+    link_url_4= "https://academic.oup.com/ageing/article/48/1/16/5126243?login=true"
+    link_text_4 = "Mas infromación"
+    # Crear un enlace que redirecciona al hacer clic
+    st.markdown(f"[{link_text_4}]({link_url_4})")
+
     col1, col2, col3 = st.columns(3)
     with col1:
             st.write(" ")
@@ -160,6 +166,8 @@ Técnica de realización.
     link_text_4 = "Mas infromación"
     # Crear un enlace que redirecciona al hacer clic
     st.markdown(f"[{link_text_4}]({link_url_4})")
+
+    
     col1, col2, col3 = st.columns(3)
     with col1:
         st.write(" ")
