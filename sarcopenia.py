@@ -244,7 +244,13 @@ with tab5:
     st.header("Porcentaje de Grasa")
     st.write(
     """ 
-    El porcentaje de grasa corporal se mide utilizando una variedad de métodos, que van desde técnicas más simples hasta métodos más avanzados y precisos. Algunas de las formas comunes de medir el porcentaje de grasa corporal incluyen:
+    El porcentaje de grasa corporal se mide utilizando una variedad de métodos, que van desde técnicas más simples hasta métodos más avanzados y precisos.
+    """
+    )
+    with st.expander("**Técnicas para caluclar la grasa corporal**"):
+            st.write(
+"""
+    Algunas de las formas comunes de medir el porcentaje de grasa corporal incluyen:
 
     - Caliper de Pliegue Cutáneo: Este método implica medir el grosor de los pliegues cutáneos en diferentes áreas del cuerpo con un calibrador. Estas mediciones se utilizan para estimar el grosor total de la grasa subcutánea y calcular el porcentaje de grasa corporal.
 
@@ -255,10 +261,14 @@ with tab5:
     - Tomografía Computarizada (TC) y Resonancia Magnética (RM): Al igual que para medir la masa muscular esquelética, la TC y la RM también se pueden utilizar para obtener imágenes detalladas de los tejidos grasos y calcular el porcentaje de grasa corporal.
 
     - Métodos de Impedancia de Aire: Estos métodos utilizan mediciones de la masa y el volumen corporal junto con la densidad del cuerpo para estimar la grasa corporal.
-
+    """
+            )
+        
+ st.write(
+    """ 
     La relación entre el porcentaje de grasa corporal y la sarcopenia es importante debido a su interacción en la composición corporal general. La sarcopenia se caracteriza por la pérdida de masa muscular esquelética, mientras que el aumento del porcentaje de grasa corporal puede llevar a un exceso de peso y obesidad. La sarcopenia y la obesidad a menudo se denominan "obesidad sarcopénica" cuando ocurren juntas.
 
-    La obesidad sarcopénica es una combinación de estas dos condiciones, donde una persona tiene un alto porcentaje de grasa corporal junto con una disminución de la masa muscular. Esto puede ser especialmente perjudicial, ya que la pérdida de masa muscular contribuye a una disminución de la fuerza y la funcionalidad, lo que puede aumentar el riesgo de discapacidad y otros problemas de salud. Además, la obesidad sarcopénica también se ha asociado con un mayor riesgo de enfermedades crónicas como la diabetes tipo 2, enfermedades cardíacas y problemas metabólicos.
+    **La obesidad sarcopénica es una combinación de estas dos condiciones, donde una persona tiene un alto porcentaje de grasa corporal junto con una disminución de la masa muscular.** Esto puede ser especialmente perjudicial, ya que la pérdida de masa muscular contribuye a una disminución de la fuerza y la funcionalidad, lo que puede aumentar el riesgo de discapacidad y otros problemas de salud. Además, la obesidad sarcopénica también se ha asociado con un mayor riesgo de enfermedades crónicas como la diabetes tipo 2, enfermedades cardíacas y problemas metabólicos.
 
     Es importante tener en cuenta que la relación entre el porcentaje de grasa corporal y la sarcopenia puede ser compleja y variar según la situación individual. Una evaluación completa de la composición corporal y la función muscular es crucial para comprender cómo estas dos condiciones pueden interactuar y afectar la salud general de una persona.
 
@@ -284,8 +294,9 @@ with tab5:
 
 
 
-    st.write(
-        """ 
+ with st.expander("**Técnicas para caluclar la grasa corporal**"):
+            st.write(
+"""
         **Técnica**
         1. Pecho
         Para medir el pecho, pellizca en diagonal un pliegue que quede a medio camino entre la axila y el pezón. Para las mujeres, querrá pellizcar 1/3 de la distancia entre la axila y el pezón. Esto le permitirá pellizcar lo suficientemente lejos del tejido mamario para obtener una lectura precisa.
