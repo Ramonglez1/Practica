@@ -129,7 +129,10 @@ with tab2:
     st.header("Circunferencia de Pantorrilla")
     st.markdown(
     """
-    La prueba de circunferencia de pantorrilla es una medida clínica utilizada para evaluar la masa muscular periférica en adultos mayores. Esta prueba es una evaluación simple y no invasiva de la masa muscular que se puede realizar en un entorno clínico o en el hogar. La circunferencia de la pantorrilla es un indicador útil de la masa muscular periférica debido a la alta correlación entre la circunferencia de la pantorrilla y la masa muscular total. La disminución de la masa muscular periférica es un indicador común de la disminución de la fuerza y ​​la función muscular en adultos mayores, lo que se asocia con una mayor discapacidad, caídas y mortalidad. Para realizar la prueba de circunferencia de pantorrilla, se mide la circunferencia de la pantorrilla desnuda en la pierna dominante, en un punto específico, generalmente en la parte más ancha de la pantorrilla.
+    La prueba de circunferencia de pantorrilla es una medida clínica utilizada para evaluar la masa muscular periférica en adultos mayores. Esta prueba es una evaluación simple y no invasiva de la masa muscular que se puede realizar en un entorno clínico o en el hogar. La circunferencia de la pantorrilla es un indicador útil de la masa muscular periférica debido a la alta correlación entre la circunferencia de la pantorrilla y la masa muscular total. La disminución de la masa muscular periférica es un indicador común de la disminución de la fuerza y ​​la función muscular en adultos mayores, lo que se asocia con una mayor discapacidad, caídas y mortalidad. 
+
+**Se ha demostrado que la circunferencia de la pantorrilla predice el rendimiento y la supervivencia en personas mayores (punto de corte <31 cm).**  Como tal, las medidas de **la circunferencia de la pantorrilla se pueden usar como un indicador de diagnóstico para adultos mayores en entornos donde no hay otros métodos de diagnóstico de masa muscular disponibles.**
+
     """
     )
     with st.expander("**Técnica**"):
@@ -149,6 +152,11 @@ Técnica de realización.
 Interpretación de resultados. La medición de la circunferencia de la pantorrilla interviene en la evaluación del estado nutricional de la persona anciana a través del test Mini Nutritional Assessment (MNA).
     """
     )
+
+link_url_4= "https://watermark.silverchair.com/afy169.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA1swggNXBgkqhkiG9w0BBwagggNIMIIDRAIBADCCAz0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM9t3aL_lKL8LoBgZJAgEQgIIDDkRAc2VNXswht_5y0hlYeZRLksO2eYPm8hEBVK-ARy0vzKZL1flNMl5UeToqjJSn5kvaGS7J9fFxGALIsH7OM4rgimoWeVJsNox19pGxYC56892i8lagbq6YOat6eDPCGvogWrDVWF_Phz57190eoVNwjVZLR7dG12Q0WmnUObMz-AlpNznXrPGmkFX-BTocKokW5Gvndb16ItQrMGzlN7SWC571cZH90tmjCpZ6Yi0Q_xydQAWzJWQWbg7xgbOAEomXjUS3oACvrrkXZRqzCtewmABAbSRthXVDvClFOS7xda_rUk2OqsgH5QrWxoKrt-5qBjh7JWnAhMwJXRMeWmVdJDVoxhc72-dbBo2YTDyBuFmy4k1ZfNI4WP7Sb8Rw58blSbp47RdcCR34kXcSeVPBQAdoF0Ga-CPF_B_VGZ6hKFwTkMOyazevgYwiJw6LUbTbBPhi2MWqk1yquezmQ_onhFONcjZyNC-ybS_EjaTEd8G5Njwekk2AYI93dLIxxN1gr3VGTGJK4Xbu4kQUaQvfRtoZsjF0TBjpMQ53r3pN49xBbXIQZi-DqJlywSNqlptgDaj9JNIAYY16EmBSbN_LRSVG4i-5LV1gp-iwaKtHbWNgWMbeWIAT3y47rkK52avMxYGtV8nDPQkLCjECBIK39VEkpbN-J0mHLiIWtp2ztaL0rvzCu3ucTa6yT-xUZwd-GSLn-CaMVm2YowN6f3u5Juf_yUuzAdSpsUQS0_fK0_WZ7kZvEfJ7Wcn2XxcF3MDGfnFH65uK_vuSoZsuKUD0tPbuENVFRu0yk0QTyieqaqIgi2R748EXfbhk7ooViYA356PXtl8YSKosUg07GHDLnPQn-o9EbC6qgv0Be9zyMHRUhFUM46d4YMPw3_46yMimhBxw2lccR8Jy4g25hVXsXS0GVWIe6fGQJKpsAz5pAQuQXfHLxx-wyWgcF05nBTV7nItZ2VgEG3Wa5u9YO50632b7SFB_lWNUjLrGTq8tCVljnYOAsFzUnvpILh2x5jcH87oQHot420-MQvRL"
+    link_text_4 = "Mas infromación"
+    # Crear un enlace que redirecciona al hacer clic
+    st.markdown(f"[{link_text_4}]({link_url_4})")
     col1, col2, col3 = st.columns(3)
     with col1:
         st.write(" ")
