@@ -178,7 +178,9 @@ Se ha demostrado que una velocidad de marcha lenta se asocia con un mayor riesgo
             st.write(
 """
 Es necesario  espacio suficiente para realizar las dos marcas en el suelo separadas por 4 metros. Lo ideal es tener un espacio fijo, ya marcado, en el que administrar la prueba. Realiza las marcas de inicio y de llegada con cinta adhesiva o píntalas con rotulador indeleble.
+
 •Se le indica al paciente recorrer la distancia establecida de 4 metros.
+
 •Se tomará con un cronómetro el tiempo el paciente necesito para recorrer los 4 metros.
 
 Se considera con alta probabilidad de sarcopenia a aquellas personas con VM <0,8 m/s, es decir, aquellas que tardan más de 5 segundos en recorrer los 4 metros. 
