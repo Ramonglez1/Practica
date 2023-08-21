@@ -425,10 +425,6 @@ La Organización Mundial de la Salud (OMS) establece el valor máximo saludable 
 **Técnica**
 El perímetro abdominal se puede medir fácilmente con una cinta métrica , así, la persona debe estar de pie, con los pies juntos, los brazos a los lados y el abdomen relajado para, a continuación, rodear su abdomen con la cinta métrica a la altura del ombligo y sin presionar hacer una inspiración profunda y al momento sacar el aire.
 
-    link_url_3= "https://www.who.int/es/news-room/fact-sheets/detail/obesity-and-overweight"
-    link_text_3= "Mas infromación"
-    # Crear un enlace que redirecciona al hacer clic
-    st.markdown(f"[{link_text_3}]({link_url_3})")
         """
         )
         
